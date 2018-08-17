@@ -1,4 +1,4 @@
-.banner {
+.wraper {
   color: white;
   text-align: center;
   height: 100vh;
@@ -9,35 +9,20 @@
   justify-content: center;
   background-color: #2d2a2c;
 }
-.banner h1 {
+
+.wraper h1 {
   font-size: 50px;
   font-weight: bold;
   font-family: 'Julius Sans One', sans-serif;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   color: #C99375;
 }
-.banner p {
+
+.wraper p {
   font-size: 20px;
   font-weight: lighter;
   color: #C99375;
   opacity: 0.6;
   margin-bottom: 30px;
   font-family: 'Julius Sans One', sans-serif;
-  font-weight: 700;
-}
-
-.banner h4 {
-  font-weight: bold;
-  font-family: 'Julius Sans One', sans-serif;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-  color: #C99375;
-}
-
-.banner a {
-  color: black;
-  font-family: 'Julius Sans One', sans-serif;
-}
-
-.fas {
-  color: black;
 }
