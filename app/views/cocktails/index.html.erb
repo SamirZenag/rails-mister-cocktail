@@ -1,15 +1,24 @@
+<%= render 'shared/navbar' %>
 <div class="banner">
   <div class="banner-content">
-    <h1>Mister Z</h1>
+    <h1>Monsieur Z</h1>
     <p> Cocktails Creation</p>
     <span>
-      <%= link_to 'EXPLORE', new_cocktail_path, class: 'btn btn-primary' %>
+      <%= link_to "Add a new cocktail", new_cocktail_path,class: 'btn btn-primary'%>
     </span>
   </div>
 </div>
 
-<ul class="list-unstyled">
-  <% @cocktails.each do |cocktail| %>
-    <li><%= link_to cocktail.name, cocktail_path(cocktail) %></li>
-  <% end %>
-</ul>
+<div class="container">
+  <br>
+  <div class="row">
+    <% @cocktails.each do |cocktail| %>
+      <div class="col-xs-12 col-sm-4">
+        <%= render 'shared/card', cocktail: cocktail %>
+      </div>
+    <% end %>
+  </div>
+  <br>
+
+</div>
+ <%= render 'shared/footer' %>

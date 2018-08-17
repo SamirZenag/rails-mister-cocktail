@@ -35,8 +35,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# PRODUCTION Gem
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
 
 # FRONT END
 gem 'autoprefixer-rails'
