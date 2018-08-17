@@ -36,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary'
 
 # FRONT END
 gem 'autoprefixer-rails'
