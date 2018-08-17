@@ -1,0 +1,21 @@
+.btn-primary {
+  background-color: #cc9b7e;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #322f31;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 9px 15px;
+  color: black;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.btn:hover {
+  transition: all 1s linear;
+  color: #fff;
+  background-color: #322f31;
+}
