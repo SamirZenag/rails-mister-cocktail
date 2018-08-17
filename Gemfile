@@ -35,6 +35,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'dotenv-rails', groups: [:development, :test]
+
 # FRONT END
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3.7'
